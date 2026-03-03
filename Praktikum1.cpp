@@ -5,20 +5,21 @@ using namespace std;
     float p, l;
 
 //Implementasi Prosedur & Fungsi
-void input (){\
+void input (){
     cout << "Masukkan Panjang : ";
     cin >> p;
     cout << "Masukkan Lebar : ";
     cin >> l;
 }
 
-float LuasPersegi(){
-    return p * l;
+float LuasPersegi(float x, float y){
+    return x * y;
 }
 
 void Output(){
-    cout << "Hasilnya = " << LuasPersegi();
+    cout << "Hasilnya = " << LuasPersegi(p, l);
 }
+
 //Program Utama
 int main()
 {//start
